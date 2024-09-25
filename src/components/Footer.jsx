@@ -8,17 +8,17 @@ const Footer = () => {
       <h2>Contact Information</h2>
       <p>Feel free to reach out to me or follow me on social media.</p>
       <div className="social-links">
-        <a href="https://www.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/andrea-lopez-/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin />
         </a>
-        <a href="https://github.com/yourprofile" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/AndreaLN25" target="_blank" rel="noopener noreferrer">
           <FaGithub />
         </a>
       </div>
       <p>
-        <a href="/cv">Download My CV</a> | <Link to="/contact">Contact Me</Link>
+        <a href="/cv">My CV</a> | <Link to="/contact">Contact Me</Link>
       </p>
-      <p className="copyright">© 2024 Your Name. All rights reserved.</p>
+      <p className="copyright">© 2024 Andrea López. All rights reserved.</p>
     </footer>
   );
 };
