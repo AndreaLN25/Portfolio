@@ -16,7 +16,7 @@ const Footer = () => {
         </a>
       </div>
       <p>
-        <a href="/cv">My CV</a> | <Link to="/contact">Contact Me</Link>
+        <Link to="/cv">My CV</Link> | <Link to="/contact">Contact Me</Link>
       </p>
       <p className="copyright">© 2024 Andrea López. All rights reserved.</p>
     </footer>
