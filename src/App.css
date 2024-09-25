@@ -441,3 +441,19 @@ footer .copyright {
   font-size: 0.875rem;
   color: #ccc;
 }
+
+/* App.css */
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex: 1;
+}
+
+footer {
+  margin-top: auto;
+}
