@@ -25,9 +25,6 @@ function AboutMe() {
             repeat={Infinity}
           />
         </h2>
-        <p>
-          Please join me on LinkedIn where I share all my projects and news about technology.
-        </p>
         <div className="social-links">
           <a href='https://www.linkedin.com/in/andrea-lopez-/' target="_blank" rel="noopener noreferrer">
             <FaLinkedin size={30} />
