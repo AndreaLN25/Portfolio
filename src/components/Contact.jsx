@@ -12,7 +12,7 @@ const Contact = () => {
           </div>
           <div className='form-group'>
             <label className='form-label'>Phone</label>
-            <input className='form-input' type='text' name='phone' />
+            <input className='form-input' type='number' name='phone' />
           </div>
         </div>
         <div className='form-group'>
