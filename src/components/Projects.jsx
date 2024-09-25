@@ -21,18 +21,18 @@ function Projects() {
       details: 'Built a backend for a profiles project using Laravel, including a well-documented REST API and Docker containers.',
       tech: 'Laravel, Docker, MySQL, PHPUnit'
     },
-    {
-      imgSrc: bcn42Img,
-      title: '42Barcelona',
-      details: 'Currently undergoing training in a Software Engineering course at 42 Barcelona.',
-      tech: 'C, C++, C#'
-    },
-    {
-      imgSrc: vedrunagraciaImg,
-      title: 'Vedruna Gracia',
-      details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      tech: 'Lorem ipsum blablabla'
-    },
+    // {
+    //   imgSrc: bcn42Img,
+    //   title: '42Barcelona',
+    //   details: 'Currently undergoing training in a Software Engineering course at 42 Barcelona.',
+    //   tech: 'C, C++, C#'
+    // },
+    // {
+    //   imgSrc: vedrunagraciaImg,
+    //   title: 'Vedruna Gracia',
+    //   details: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+    //   tech: 'Lorem ipsum blablabla'
+    // },
   ];
 
   const handleProjectClick = (project) => {
