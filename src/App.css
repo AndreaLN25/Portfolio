@@ -98,6 +98,7 @@ html {
 
 #work-item {
   margin-bottom: 1.5rem; /* Consistente con otros márgenes */
+  
 }
 
 /* Estilos para los elementos de lista de trabajo */
@@ -182,7 +183,7 @@ html {
   background-color: #f9f9f9;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(32, 30, 30, 0.1);
-  margin-bottom: 2rem; /* Ajustado para mayor consistencia */
+  margin-bottom: 4rem; /* Ajustado para mayor consistencia */
   margin-top: 2rem;
   max-width: 1040px;
   padding: 2rem; /* Ajustado para mayor consistencia */
@@ -235,7 +236,6 @@ html {
 
 /* src/app.css */
 
-/* Estilos para el modal mejorados */
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -247,6 +247,7 @@ html {
   justify-content: center;
   align-items: center;
   z-index: 1000;
+  -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px); /* Efecto de desenfoque de fondo */
 }
 
@@ -320,7 +321,7 @@ html {
 #cv p {
   font-size: 1rem;
   color: #333;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 #cv a {
@@ -347,6 +348,7 @@ html {
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-top: 2rem; /* Ajustado para mayor consistencia */
+  margin-bottom: 4rem;
 }
 
 .contact-title {
