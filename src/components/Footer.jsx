@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Footer = () => {
@@ -15,7 +16,7 @@ const Footer = () => {
         </a>
       </div>
       <p>
-        <a href="/cv">Download My CV</a> | <a href="/contact">Contact Me</a>
+        <a href="/cv">Download My CV</a> | <Link to="/contact">Contact Me</Link>
       </p>
       <p className="copyright">© 2024 Your Name. All rights reserved.</p>
     </footer>
